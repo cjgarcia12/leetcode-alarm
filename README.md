@@ -13,20 +13,19 @@
  
 1. Clone repo  
 2. cd to the backend directory:
-
    ```cd backend```
 3. Create virtual environment:  
    ```python -m venv venv```  
 3. Activate venv:  
    - Mac/Linux: ```source venv/bin/activate```  
    - Windows: ```venv\Scripts\activate```  
-4. Install dependencies: ```pip install flask flask-cors requests```  
+4. Install dependencies: ```pip install -r requirements.txt```  
 5. Run: ```python main.py```  
 
 *Frontend (React)*:  
 1. Navigate to frontend directory  
-2. Install dependencies: ```npm install axios react react-dom```  
-3. Run: ```npm start```  
+2. Install dependencies: ```npm install```  
+3. Run: ```npm run dev```  
 
 **Usage**:  
 1. Enter LeetCode username  
@@ -49,9 +48,4 @@
 2. Create feature branch  
 3. Submit PR with detailed description  
 
-**License**: MIT  
-**Acknowledgments**: LeetCode API, Flask-React integration patterns  
-
----
-
-Replace placeholder values (like your repo URL) and add screenshots/demo links when ready. You might want to add system requirements (Python 3.8+, Node 16+) if needed.
+**Acknowledgments**: LeetCode API, Flask-React integration patterns
